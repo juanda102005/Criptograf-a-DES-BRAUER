@@ -16,7 +16,7 @@ lazos                          3.30     3.03     0.00    13.00       15.69     0
 componentes                    1.00     0.00     1.00     1.00        1.00     0.00     1.00     1.00       n/a
 conexo                         1.00     0.00     1.00     1.00        1.00     0.00     1.00     1.00       n/a
 dim_algebra                  496.14    93.93   336.00   820.00      206.69    14.53   175.00   246.00     30.45
-dim_centro                    23.60     6.06    17.00    43.00       48.38     1.16    43.00    49.00    -40.16
+dim_centro                    20.51     3.46    17.00    32.00       68.99     5.52    55.00    82.00    -74.43
 solape_consecutivo_medio       5.29     0.21     4.80     5.87        0.47     0.18     0.07     1.00    173.47
 
 Nota: |t| grande indica que la diferencia entre DES y el control es grande

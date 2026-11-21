@@ -28,7 +28,7 @@
     "componentes": 1,
     "conexo": 1,
     "dim_algebra": 510,
-    "dim_centro": 29,
+    "dim_centro": 25,
     "solape_consecutivo_medio": 5.0
   },
   "clasificacion": "conexo",

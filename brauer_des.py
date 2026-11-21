@@ -107,7 +107,15 @@ class ConfiguracionBrauer:
         self.dim_algebra = 0
         self.dim_centro = 0
         self.analizar()
-
+    def lazos_flechas(self) -> int:
+        """Flechas del quiver que son lazos (w_i -> w_i), una por cada par
+        consecutivo igual en la secuencia cíclica de sucesores de cada byte."""
+        return sum(
+            1
+            for seq in self.sucesores.values()
+            for a, b in zip(seq, seq[1:])
+            if a == b
+        )
     def analizar(self):
         for v in self.vertices:
             seq = []
@@ -121,7 +129,9 @@ class ConfiguracionBrauer:
         self.dim_algebra = sum(
             self.val(v) * (self.mu(v) * self.val(v) - 1) for v in self.vertices
         ) + 2 * self.n
-        self.dim_centro = 1 + self.n + 2 * self.lazos()
+        n_C = sum(1 for v in self.vertices if self.val(v) == 1 and self.mu(v) > 1)
+        self.dim_centro = (1 + sum(self.mu(v) for v in self.vertices) + self.n
+                           - len(self.vertices) + self.lazos_flechas() - n_C)
 
     def val(self, v: int) -> int:
         largo = len(self.sucesores[v])
