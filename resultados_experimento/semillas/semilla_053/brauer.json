@@ -1,0 +1,535 @@
+{
+  "semilla_id": 53,
+  "semilla_hex": "D019D9373B01F416",
+  "llaves_derivadas": {
+    "K1": "3B D0 19 D9 26 3B 01 F4",
+    "K2": "EA 3B D0 19 D9 26 3B 01",
+    "K3": "7C 08 EA 3B C1 08 D9 26",
+    "K4": "A4 5B 7C 08 FB 2A C1 08",
+    "K5": "89 04 A4 5B 7C 08 FB 2A",
+    "K6": "F4 5D 89 04 B5 4A 7C 08",
+    "K7": "E6 04 F4 5D 89 04 B5 4A",
+    "K8": "6B 9D E6 04 F4 4C 89 04",
+    "K9": "02 6B 9D E6 04 F4 4C 89",
+    "K10": "8F 04 02 6B 8C F7 04 F4",
+    "K11": "02 E3 8F 04 02 7A 8C F7",
+    "K12": "07 F2 02 E3 9E 15 02 7A",
+    "K13": "10 F4 07 F2 02 E3 9E 15",
+    "K14": "37 2A 10 F4 16 E3 02 E3",
+    "K15": "19 D9 37 2A 01 F4 16 E3",
+    "K16": "D0 19 D9 37 3B 01 F4 16"
+  },
+  "metricas": {
+    "bytes_distintos": 37,
+    "bytes_valencia_1": 0,
+    "valencia_max": 10,
+    "aristas_distintas": 52,
+    "lazos": 10,
+    "componentes": 1,
+    "conexo": 1,
+    "dim_algebra": 520,
+    "dim_centro": 37,
+    "solape_consecutivo_medio": 4.8667
+  },
+  "clasificacion": "conexo",
+  "componentes": [
+    [
+      "w_1",
+      "w_2",
+      "w_3",
+      "w_4",
+      "w_5",
+      "w_6",
+      "w_7",
+      "w_8",
+      "w_9",
+      "w_10",
+      "w_11",
+      "w_12",
+      "w_13",
+      "w_14",
+      "w_15",
+      "w_16"
+    ]
+  ],
+  "aristas": [
+    "w_1 -> w_1",
+    "w_1 -> w_2",
+    "w_1 -> w_6",
+    "w_2 -> w_2",
+    "w_2 -> w_3",
+    "w_2 -> w_15",
+    "w_2 -> w_16",
+    "w_3 -> w_1",
+    "w_3 -> w_2",
+    "w_3 -> w_3",
+    "w_3 -> w_4",
+    "w_3 -> w_15",
+    "w_3 -> w_16",
+    "w_4 -> w_3",
+    "w_4 -> w_4",
+    "w_4 -> w_5",
+    "w_5 -> w_4",
+    "w_5 -> w_6",
+    "w_5 -> w_14",
+    "w_6 -> w_3",
+    "w_6 -> w_7",
+    "w_7 -> w_6",
+    "w_7 -> w_7",
+    "w_7 -> w_8",
+    "w_8 -> w_8",
+    "w_8 -> w_9",
+    "w_9 -> w_5",
+    "w_9 -> w_7",
+    "w_9 -> w_8",
+    "w_9 -> w_10",
+    "w_10 -> w_8",
+    "w_10 -> w_10",
+    "w_10 -> w_11",
+    "w_10 -> w_13",
+    "w_11 -> w_5",
+    "w_11 -> w_10",
+    "w_11 -> w_11",
+    "w_11 -> w_12",
+    "w_12 -> w_11",
+    "w_12 -> w_12",
+    "w_12 -> w_13",
+    "w_13 -> w_12",
+    "w_13 -> w_14",
+    "w_14 -> w_9",
+    "w_14 -> w_13",
+    "w_14 -> w_14",
+    "w_14 -> w_15",
+    "w_15 -> w_4",
+    "w_15 -> w_11",
+    "w_15 -> w_16",
+    "w_16 -> w_1",
+    "w_16 -> w_14"
+  ],
+  "vertices": [
+    {
+      "byte": "01",
+      "valencia": 4,
+      "mu": 1,
+      "sucesores": [
+        "w_1",
+        "w_2",
+        "w_15",
+        "w_16",
+        "w_1"
+      ]
+    },
+    {
+      "byte": "02",
+      "valencia": 8,
+      "mu": 1,
+      "sucesores": [
+        "w_9",
+        "w_10",
+        "w_11",
+        "w_11",
+        "w_12",
+        "w_12",
+        "w_13",
+        "w_14",
+        "w_9"
+      ]
+    },
+    {
+      "byte": "04",
+      "valencia": 10,
+      "mu": 1,
+      "sucesores": [
+        "w_5",
+        "w_6",
+        "w_7",
+        "w_7",
+        "w_8",
+        "w_8",
+        "w_9",
+        "w_10",
+        "w_10",
+        "w_11",
+        "w_5"
+      ]
+    },
+    {
+      "byte": "07",
+      "valencia": 2,
+      "mu": 1,
+      "sucesores": [
+        "w_12",
+        "w_13",
+        "w_12"
+      ]
+    },
+    {
+      "byte": "08",
+      "valencia": 6,
+      "mu": 1,
+      "sucesores": [
+        "w_3",
+        "w_3",
+        "w_4",
+        "w_4",
+        "w_5",
+        "w_6",
+        "w_3"
+      ]
+    },
+    {
+      "byte": "10",
+      "valencia": 2,
+      "mu": 1,
+      "sucesores": [
+        "w_13",
+        "w_14",
+        "w_13"
+      ]
+    },
+    {
+      "byte": "15",
+      "valencia": 2,
+      "mu": 1,
+      "sucesores": [
+        "w_12",
+        "w_13",
+        "w_12"
+      ]
+    },
+    {
+      "byte": "16",
+      "valencia": 3,
+      "mu": 1,
+      "sucesores": [
+        "w_14",
+        "w_15",
+        "w_16",
+        "w_14"
+      ]
+    },
+    {
+      "byte": "19",
+      "valencia": 4,
+      "mu": 1,
+      "sucesores": [
+        "w_1",
+        "w_2",
+        "w_15",
+        "w_16",
+        "w_1"
+      ]
+    },
+    {
+      "byte": "26",
+      "valencia": 3,
+      "mu": 1,
+      "sucesores": [
+        "w_1",
+        "w_2",
+        "w_3",
+        "w_1"
+      ]
+    },
+    {
+      "byte": "2A",
+      "valencia": 4,
+      "mu": 1,
+      "sucesores": [
+        "w_4",
+        "w_5",
+        "w_14",
+        "w_15",
+        "w_4"
+      ]
+    },
+    {
+      "byte": "37",
+      "valencia": 3,
+      "mu": 1,
+      "sucesores": [
+        "w_14",
+        "w_15",
+        "w_16",
+        "w_14"
+      ]
+    },
+    {
+      "byte": "3B",
+      "valencia": 6,
+      "mu": 1,
+      "sucesores": [
+        "w_1",
+        "w_1",
+        "w_2",
+        "w_2",
+        "w_3",
+        "w_16",
+        "w_1"
+      ]
+    },
+    {
+      "byte": "4A",
+      "valencia": 2,
+      "mu": 1,
+      "sucesores": [
+        "w_6",
+        "w_7",
+        "w_6"
+      ]
+    },
+    {
+      "byte": "4C",
+      "valencia": 2,
+      "mu": 1,
+      "sucesores": [
+        "w_8",
+        "w_9",
+        "w_8"
+      ]
+    },
+    {
+      "byte": "5B",
+      "valencia": 2,
+      "mu": 1,
+      "sucesores": [
+        "w_4",
+        "w_5",
+        "w_4"
+      ]
+    },
+    {
+      "byte": "5D",
+      "valencia": 2,
+      "mu": 1,
+      "sucesores": [
+        "w_6",
+        "w_7",
+        "w_6"
+      ]
+    },
+    {
+      "byte": "6B",
+      "valencia": 3,
+      "mu": 1,
+      "sucesores": [
+        "w_8",
+        "w_9",
+        "w_10",
+        "w_8"
+      ]
+    },
+    {
+      "byte": "7A",
+      "valencia": 2,
+      "mu": 1,
+      "sucesores": [
+        "w_11",
+        "w_12",
+        "w_11"
+      ]
+    },
+    {
+      "byte": "7C",
+      "valencia": 4,
+      "mu": 1,
+      "sucesores": [
+        "w_3",
+        "w_4",
+        "w_5",
+        "w_6",
+        "w_3"
+      ]
+    },
+    {
+      "byte": "89",
+      "valencia": 5,
+      "mu": 1,
+      "sucesores": [
+        "w_5",
+        "w_6",
+        "w_7",
+        "w_8",
+        "w_9",
+        "w_5"
+      ]
+    },
+    {
+      "byte": "8C",
+      "valencia": 2,
+      "mu": 1,
+      "sucesores": [
+        "w_10",
+        "w_11",
+        "w_10"
+      ]
+    },
+    {
+      "byte": "8F",
+      "valencia": 2,
+      "mu": 1,
+      "sucesores": [
+        "w_10",
+        "w_11",
+        "w_10"
+      ]
+    },
+    {
+      "byte": "9D",
+      "valencia": 2,
+      "mu": 1,
+      "sucesores": [
+        "w_8",
+        "w_9",
+        "w_8"
+      ]
+    },
+    {
+      "byte": "9E",
+      "valencia": 2,
+      "mu": 1,
+      "sucesores": [
+        "w_12",
+        "w_13",
+        "w_12"
+      ]
+    },
+    {
+      "byte": "A4",
+      "valencia": 2,
+      "mu": 1,
+      "sucesores": [
+        "w_4",
+        "w_5",
+        "w_4"
+      ]
+    },
+    {
+      "byte": "B5",
+      "valencia": 2,
+      "mu": 1,
+      "sucesores": [
+        "w_6",
+        "w_7",
+        "w_6"
+      ]
+    },
+    {
+      "byte": "C1",
+      "valencia": 2,
+      "mu": 1,
+      "sucesores": [
+        "w_3",
+        "w_4",
+        "w_3"
+      ]
+    },
+    {
+      "byte": "D0",
+      "valencia": 3,
+      "mu": 1,
+      "sucesores": [
+        "w_1",
+        "w_2",
+        "w_16",
+        "w_1"
+      ]
+    },
+    {
+      "byte": "D9",
+      "valencia": 5,
+      "mu": 1,
+      "sucesores": [
+        "w_1",
+        "w_2",
+        "w_3",
+        "w_15",
+        "w_16",
+        "w_1"
+      ]
+    },
+    {
+      "byte": "E3",
+      "valencia": 6,
+      "mu": 1,
+      "sucesores": [
+        "w_11",
+        "w_12",
+        "w_13",
+        "w_14",
+        "w_14",
+        "w_15",
+        "w_11"
+      ]
+    },
+    {
+      "byte": "E6",
+      "valencia": 3,
+      "mu": 1,
+      "sucesores": [
+        "w_7",
+        "w_8",
+        "w_9",
+        "w_7"
+      ]
+    },
+    {
+      "byte": "EA",
+      "valencia": 2,
+      "mu": 1,
+      "sucesores": [
+        "w_2",
+        "w_3",
+        "w_2"
+      ]
+    },
+    {
+      "byte": "F2",
+      "valencia": 2,
+      "mu": 1,
+      "sucesores": [
+        "w_12",
+        "w_13",
+        "w_12"
+      ]
+    },
+    {
+      "byte": "F4",
+      "valencia": 10,
+      "mu": 1,
+      "sucesores": [
+        "w_1",
+        "w_6",
+        "w_7",
+        "w_8",
+        "w_9",
+        "w_10",
+        "w_13",
+        "w_14",
+        "w_15",
+        "w_16",
+        "w_1"
+      ]
+    },
+    {
+      "byte": "F7",
+      "valencia": 2,
+      "mu": 1,
+      "sucesores": [
+        "w_10",
+        "w_11",
+        "w_10"
+      ]
+    },
+    {
+      "byte": "FB",
+      "valencia": 2,
+      "mu": 1,
+      "sucesores": [
+        "w_4",
+        "w_5",
+        "w_4"
+      ]
+    }
+  ]
+}

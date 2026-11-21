@@ -1,0 +1,24 @@
+====================================================================================================
+                                       ESTADISTICAS GLOBALES                                        
+====================================================================================================
+Semillas analizadas: 100
+Semillas con grafo conexo (DES):     100/100 (100.0%)
+Semillas con grafo no conexo (DES):  0/100
+Grupo de control con grafo conexo:   100/100 (100.0%)
+
+                                --------- DES ---------                ------- CONTROL -------          t Welch
+metrica                       media     desv      min      max       media     desv      min      max  
+bytes_distintos               35.27     3.82    25.00    43.00       80.89     3.61    72.00    88.00    -86.85
+bytes_valencia_1               0.00     0.00     0.00     0.00       46.91     5.23    33.00    59.00    -89.66
+valencia_max                   9.20     2.24     6.00    16.00        4.41     0.74     3.00     7.00     20.28
+aristas_distintas             50.99     3.38    45.00    62.00       82.79     4.96    69.00    96.00    -52.97
+lazos                          3.30     3.03     0.00    13.00       15.69     0.58    13.00    16.00    -40.16
+componentes                    1.00     0.00     1.00     1.00        1.00     0.00     1.00     1.00       n/a
+conexo                         1.00     0.00     1.00     1.00        1.00     0.00     1.00     1.00       n/a
+dim_algebra                  496.14    93.93   336.00   820.00      206.69    14.53   175.00   246.00     30.45
+dim_centro                    23.60     6.06    17.00    43.00       48.38     1.16    43.00    49.00    -40.16
+solape_consecutivo_medio       5.29     0.21     4.80     5.87        0.47     0.18     0.07     1.00    173.47
+
+Nota: |t| grande indica que la diferencia entre DES y el control es grande
+respecto a la variabilidad entre semillas. No prueba por si sola una debilidad
+criptografica; solo cuantifica la estructura del calendario de claves.
